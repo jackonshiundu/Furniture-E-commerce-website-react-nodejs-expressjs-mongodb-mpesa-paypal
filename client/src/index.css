@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply overflow-x-hidden scroll-mx-3.5 scroll-m-96;
+  }
+  .number-of-counts {
+    @apply text-[#d1b112]  font-bold text-lg p-1    w-5  h-5 flex justify-center items-center  bg-[#dadde3] rounded-full absolute top-5 -right-2;
+  }
+  .menuitems {
+    @apply hover:scale-105 hover:text-[#d1b112] transition duration-300 text-[#dadde3];
+  }
+}
+@layer components {
+  .payment-content {
+    @apply flex items-center sm:justify-center shadow-md p-5 h-24 pr-16 sm:p-8 gap-5 
+    bg-white border-4 
+    mb-4
+    border-gray-300 transition peer-checked:border-[#1e3639]
+    peer-checked:shadow-lg peer-checked:-translate-y-1;
+  }
+  .payment-text {
+    @apply static font-bold;
+  }
+  .payment-check {
+    @apply absolute  -top-3 -right-4 text-2xl text-[#1e3639]
+    invisible peer-checked:visible;
+  }
+}

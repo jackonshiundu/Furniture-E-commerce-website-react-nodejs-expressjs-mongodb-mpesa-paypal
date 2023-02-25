@@ -1,0 +1,13 @@
+  {
+    _id: "63701cc1f03239d40b000046",
+    name: "Karlie",
+    email: "karlie@gmail.com",
+    password: "karlie",
+    city: "Dao",
+    state: null,
+    country: "PH",
+    occupation: "Social Worker",
+    phoneNumber: "1371356593",
+    transactions: ["63701d74f032399c0000014f", "63701d74f03239b7f700003f"],
+    role: "admin",
+  },
